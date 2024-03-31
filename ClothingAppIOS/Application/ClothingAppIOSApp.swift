@@ -8,10 +8,15 @@
 import SwiftUI
 
 @main
+
 struct ClothingAppIOSApp: App {
+    
+   // @StateObject var vieModel = AuthViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginView()
+                //.environmentObject(vieModel)
         }
     }
 }
